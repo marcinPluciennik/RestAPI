@@ -1,5 +1,6 @@
 package com.crud.tasks.controller;
 
+import com.crud.tasks.domain.Task;
 import com.crud.tasks.domain.TaskDto;
 import com.crud.tasks.mapper.TaskMapper;
 import com.crud.tasks.service.DbService;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/v1/task")
@@ -31,8 +33,13 @@ public class TaskController {
 
     @RequestMapping(method = RequestMethod.GET, value = "getTask")
     public TaskDto getTask(Long taskId){
-        return new TaskDto(1L, "test title", "test_content");
+        return taskMapper.mapToTaskDto(service.getOneTask(taskId).get());
     }
+
+    //@RequestMapping(method = RequestMethod.GET, value = "getTask")
+    //public TaskDto getTask(Long taskId){
+    //    return new TaskDto(1L, "test title", "test_content");
+    //}
 
     @RequestMapping(method = RequestMethod.DELETE, value = "deleteTask")
     public void deleteTask(Long taskId){
