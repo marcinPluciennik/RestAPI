@@ -19,7 +19,15 @@ public class DbService {
     }
 
 
-    public Optional<Task> getOneTask(Long id){
+    public Optional<Task> getTask(final Long id){
         return repository.findById(id);
+    }
+
+    public Task saveTask (final Task task){
+        return repository.save(task);
+    }
+
+    public void deleteTask(final Long id){
+        repository.deleteById(id);
     }
 }
