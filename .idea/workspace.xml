@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="" />
+    <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e50BQoaeauPyBfeAo3NaN4xTcA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +64,29 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Shell Script.showtasks.sh">
+    <configuration name="runcrud.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/runcrud.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="showtasks.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/showtasks.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TasksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="tasks.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.crud.tasks.TasksApplication" />
@@ -55,6 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.showtasks.sh" />
+        <item itemvalue="Shell Script.runcrud.sh" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,7 +113,18 @@
       <updated>1593596010969</updated>
       <workItem from="1593596013331" duration="925000" />
       <workItem from="1593596998854" duration="2495000" />
-      <workItem from="1593623234225" duration="57000" />
+      <workItem from="1593623234225" duration="1753000" />
+      <workItem from="1594130742736" duration="4710000" />
+      <workItem from="1594211293119" duration="22289000" />
+      <workItem from="1594314277224" duration="5582000" />
+      <workItem from="1594747279709" duration="1273000" />
+      <workItem from="1595353371155" duration="665000" />
+      <workItem from="1595355413841" duration="45000" />
+      <workItem from="1595355907990" duration="153000" />
+      <workItem from="1595358802657" duration="183000" />
+      <workItem from="1595363496724" duration="78000" />
+      <workItem from="1595363765119" duration="152000" />
+      <workItem from="1595406234640" duration="11025000" />
     </task>
     <servers />
   </component>
@@ -76,41 +132,53 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1593597714962">
+    <state x="419" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594212336114">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1593597714962" />
-    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1593597714959">
+    <state x="419" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.796@0.23.1440.796" timestamp="1594212336114" />
+    <state x="458" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594310937095">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1593597714959" />
-    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1593597714959">
+    <state x="458" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.796@0.23.1440.796" timestamp="1594310937095" />
+    <state width="1358" height="345" key="GridCell.Tab.0.bottom" timestamp="1595363574351">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1593597714959" />
-    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1593597714961">
+    <state width="1358" height="345" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1595363574351" />
+    <state width="1358" height="345" key="GridCell.Tab.0.center" timestamp="1595363574350">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1593597714961" />
-    <state width="1358" height="198" key="GridCell.Tab.1.bottom" timestamp="1593597714964">
+    <state width="1358" height="345" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1595363574350" />
+    <state width="1358" height="345" key="GridCell.Tab.0.left" timestamp="1595363574350">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.1.bottom/0.23.1440.796@0.23.1440.796" timestamp="1593597714964" />
-    <state width="1358" height="198" key="GridCell.Tab.1.center" timestamp="1593597714963">
+    <state width="1358" height="345" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1595363574350" />
+    <state width="1358" height="345" key="GridCell.Tab.0.right" timestamp="1595363574350">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.1.center/0.23.1440.796@0.23.1440.796" timestamp="1593597714963" />
-    <state width="1358" height="198" key="GridCell.Tab.1.left" timestamp="1593597714963">
+    <state width="1358" height="345" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1595363574350" />
+    <state width="1358" height="345" key="GridCell.Tab.1.bottom" timestamp="1595363574353">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.1.left/0.23.1440.796@0.23.1440.796" timestamp="1593597714963" />
-    <state width="1358" height="198" key="GridCell.Tab.1.right" timestamp="1593597714964">
+    <state width="1358" height="345" key="GridCell.Tab.1.bottom/0.23.1440.796@0.23.1440.796" timestamp="1595363574353" />
+    <state width="1358" height="345" key="GridCell.Tab.1.center" timestamp="1595363574352">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.1.right/0.23.1440.796@0.23.1440.796" timestamp="1593597714964" />
+    <state width="1358" height="345" key="GridCell.Tab.1.center/0.23.1440.796@0.23.1440.796" timestamp="1595363574352" />
+    <state width="1358" height="345" key="GridCell.Tab.1.left" timestamp="1595363574352">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state width="1358" height="345" key="GridCell.Tab.1.left/0.23.1440.796@0.23.1440.796" timestamp="1595363574352" />
+    <state width="1358" height="345" key="GridCell.Tab.1.right" timestamp="1595363574353">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state width="1358" height="345" key="GridCell.Tab.1.right/0.23.1440.796@0.23.1440.796" timestamp="1595363574353" />
     <state x="229" y="50" key="SettingsEditor" timestamp="1593596971293">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="229" y="50" key="SettingsEditor/0.23.1440.796@0.23.1440.796" timestamp="1593596971293" />
+    <state x="385" y="143" width="670" height="676" key="search.everywhere.popup" timestamp="1594310773235">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state x="385" y="143" width="670" height="676" key="search.everywhere.popup/0.23.1440.796@0.23.1440.796" timestamp="1594310773235" />
   </component>
 </project>
