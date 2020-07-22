@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/TasksApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/TasksApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +107,7 @@
       <workItem from="1595358802657" duration="183000" />
       <workItem from="1595363496724" duration="78000" />
       <workItem from="1595363765119" duration="152000" />
-      <workItem from="1595406234640" duration="11859000" />
+      <workItem from="1595406234640" duration="12132000" />
     </task>
     <servers />
   </component>
@@ -165,9 +159,10 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="229" y="50" key="SettingsEditor/0.23.1440.796@0.23.1440.796" timestamp="1593596971293" />
-    <state x="385" y="143" width="670" height="676" key="search.everywhere.popup" timestamp="1594310773235">
-      <screen x="0" y="23" width="1440" height="796" />
+    <state x="385" y="143" width="670" height="678" key="search.everywhere.popup" timestamp="1595438987943">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="385" y="143" width="670" height="676" key="search.everywhere.popup/0.23.1440.796@0.23.1440.796" timestamp="1594310773235" />
+    <state x="385" y="143" width="670" height="678" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1595438987943" />
   </component>
 </project>
