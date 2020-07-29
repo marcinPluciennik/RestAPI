@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/v1/trello")
@@ -23,8 +24,10 @@ public class TrelloController {
 
         trelloBoards.stream()
                 .filter(trelloBoardDto -> trelloBoardDto.getName().contains("Kodilla"))
-                .filter(trelloBoardDto -> trelloBoardDto.getId() != null)
-                .filter(trelloBoardDto -> trelloBoardDto.getName() != null)
+                //.filter(trelloBoardDto -> trelloBoardDto.getId() != null)
+                //.filter(trelloBoardDto -> trelloBoardDto.getName() != null)
+                .filter(trelloBoardDto -> Optional.ofNullable(trelloBoardDto.getId()).isPresent())
+                .filter(trelloBoardDto -> Optional.ofNullable(trelloBoardDto.getName()).isPresent())
                 .forEach(trelloBoardDto -> System.out.println(trelloBoardDto.getId() + " " + trelloBoardDto.getName()));
     }
 }
