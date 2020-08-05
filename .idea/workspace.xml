@@ -2,35 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/config/AdminConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.trello.client.TrelloClientTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.trello.client.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TrelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TrelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/SimpleEmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/SimpleEmailService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.trello.client.TrelloClientTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -106,7 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleEmailServiceTest.shouldSendEmail">
+  <component name="RunManager" selected="Spring Boot.TasksApplication">
     <configuration name="SimpleEmailServiceTest.shouldSendEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -246,7 +236,7 @@
       <workItem from="1595511153885" duration="1213000" />
       <workItem from="1595590015083" duration="23692000" />
       <workItem from="1596134643307" duration="13904000" />
-      <workItem from="1596618118024" duration="7880000" />
+      <workItem from="1596618118024" duration="10910000" />
     </task>
     <servers />
   </component>
@@ -270,38 +260,38 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="458" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.796@0.23.1440.796" timestamp="1594310937095" />
-    <state width="1358" height="167" key="GridCell.Tab.0.bottom" timestamp="1596621299223">
+    <state width="1358" height="266" key="GridCell.Tab.0.bottom" timestamp="1596649152444">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="167" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1596621299223" />
-    <state width="1358" height="167" key="GridCell.Tab.0.center" timestamp="1596621299221">
+    <state width="1358" height="266" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1596649152444" />
+    <state width="1358" height="266" key="GridCell.Tab.0.center" timestamp="1596649152443">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="167" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1596621299221" />
-    <state width="1358" height="167" key="GridCell.Tab.0.left" timestamp="1596621299220">
+    <state width="1358" height="266" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1596649152443" />
+    <state width="1358" height="266" key="GridCell.Tab.0.left" timestamp="1596649152438">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="167" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1596621299220" />
-    <state width="1358" height="167" key="GridCell.Tab.0.right" timestamp="1596621299222">
+    <state width="1358" height="266" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1596649152438" />
+    <state width="1358" height="266" key="GridCell.Tab.0.right" timestamp="1596649152444">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="167" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1596621299222" />
-    <state width="1358" height="167" key="GridCell.Tab.1.bottom" timestamp="1596621299225">
+    <state width="1358" height="266" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1596649152444" />
+    <state width="1358" height="266" key="GridCell.Tab.1.bottom" timestamp="1596649152447">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="167" key="GridCell.Tab.1.bottom/0.23.1440.796@0.23.1440.796" timestamp="1596621299225" />
-    <state width="1358" height="167" key="GridCell.Tab.1.center" timestamp="1596621299224">
+    <state width="1358" height="266" key="GridCell.Tab.1.bottom/0.23.1440.796@0.23.1440.796" timestamp="1596649152447" />
+    <state width="1358" height="266" key="GridCell.Tab.1.center" timestamp="1596649152446">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="167" key="GridCell.Tab.1.center/0.23.1440.796@0.23.1440.796" timestamp="1596621299224" />
-    <state width="1358" height="167" key="GridCell.Tab.1.left" timestamp="1596621299223">
+    <state width="1358" height="266" key="GridCell.Tab.1.center/0.23.1440.796@0.23.1440.796" timestamp="1596649152446" />
+    <state width="1358" height="266" key="GridCell.Tab.1.left" timestamp="1596649152445">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="167" key="GridCell.Tab.1.left/0.23.1440.796@0.23.1440.796" timestamp="1596621299223" />
-    <state width="1358" height="167" key="GridCell.Tab.1.right" timestamp="1596621299225">
+    <state width="1358" height="266" key="GridCell.Tab.1.left/0.23.1440.796@0.23.1440.796" timestamp="1596649152445" />
+    <state width="1358" height="266" key="GridCell.Tab.1.right" timestamp="1596649152447">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="167" key="GridCell.Tab.1.right/0.23.1440.796@0.23.1440.796" timestamp="1596621299225" />
+    <state width="1358" height="266" key="GridCell.Tab.1.right/0.23.1440.796@0.23.1440.796" timestamp="1596649152447" />
     <state x="229" y="50" key="SettingsEditor" timestamp="1596134587150">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
