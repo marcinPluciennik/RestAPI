@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.trello.client.TrelloClientTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-31T17:47:37" hostname="MacBook-Air-Marcin.local" time="1.664">
+<testsuite name="com.crud.tasks.trello.client.TrelloClientTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-05T08:58:36" hostname="MacBook-Air-Marcin.local" time="1.594">
   <properties/>
-  <testcase name="shouldReturnEmptyList" classname="com.crud.tasks.trello.client.TrelloClientTest" time="1.664"/>
+  <testcase name="shouldReturnEmptyList" classname="com.crud.tasks.trello.client.TrelloClientTest" time="1.578"/>
+  <testcase name="shouldFetchTrelloBoards" classname="com.crud.tasks.trello.client.TrelloClientTest" time="0.005"/>
+  <testcase name="shouldCreateCard" classname="com.crud.tasks.trello.client.TrelloClientTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
