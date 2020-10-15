@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 @Component
 public class TrelloValidator {
-    public static final Logger LOGGER = LoggerFactory.getLogger(TrelloFacade.class);
+    public static final Logger LOGGER = LoggerFactory.getLogger(TrelloValidator.class);
 
     public void validateCard(final TrelloCard trelloCard){
         if (trelloCard.getName().contains("test")){
@@ -21,7 +21,7 @@ public class TrelloValidator {
         }
     }
 
-    public List<TrelloBoard> validateTrelloBorads(final List<TrelloBoard> trelloBoards) {
+    public List<TrelloBoard> validateTrelloBoards(final List<TrelloBoard> trelloBoards) {
         LOGGER.info("Starting filtering boards...");
         List<TrelloBoard> filteredBoards = trelloBoards.stream()
                 .filter(trelloBoard -> !trelloBoard.getName().equalsIgnoreCase("test"))

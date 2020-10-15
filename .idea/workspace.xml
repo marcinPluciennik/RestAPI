@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/facade/TrelloFacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/validator/TrelloValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,24 +14,22 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TrelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TrelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/CreatedTrelloCard.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/TrelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/TrelloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/client/TrelloClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/client/TrelloClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/crud/tasks/service/SimpleEmailServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/crud/tasks/service/SimpleEmailServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/facade/TrelloFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/facade/TrelloFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/validator/TrelloValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/validator/TrelloValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/crud/tasks/trello/client/TrelloClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/crud/tasks/trello/client/TrelloClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.service.SimpleEmailServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.mapper.TrelloMapperTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.mapper.TrelloMapperTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.service.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.service.SimpleEmailServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.mapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.mapper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.mapper.TrelloMapperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.mapper.TrelloMapperTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/facade/TrelloFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/facade/TrelloFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/validator/TrelloValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/validator/TrelloValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/client/TrelloClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/client/TrelloClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -99,6 +101,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.crud.tasks.trello.validator" />
+      <recent name="com.crud.tasks.trello.facade" />
       <recent name="com.crud.tasks.mapper" />
       <recent name="com.crud.tasks.service" />
       <recent name="com.crud.tasks.trello.client" />
@@ -107,13 +111,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TrelloMapperTest.mapToBoardsDtoTest">
-    <configuration name="SimpleEmailServiceTest.shouldSendEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Tests in 'tasks.test'">
+    <configuration name="Tests in 'tasks.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.service.SimpleEmailServiceTest.shouldSendEmail&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -127,12 +131,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloClientTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrelloFacadeTest.shouldCreateCard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.trello.client.TrelloClientTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.trello.facade.TrelloFacadeTest.shouldCreateCard&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -165,12 +169,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloMapperTest.mapToBoardsDtoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrelloMapperTest.testMapToListDto" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.mapper.TrelloMapperTest.mapToBoardsDtoTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.mapper.TrelloMapperTest.testMapToListDto&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -184,12 +188,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloMapperTest.mapToBoardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrelloValidatorTest.testvalidateTrelloBorads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.mapper.TrelloMapperTest.mapToBoardsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.trello.validator.TrelloValidatorTest.testvalidateTrelloBorads&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -212,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TrelloMapperTest.mapToBoardsDtoTest" />
-        <item itemvalue="Gradle.TrelloMapperTest.mapToBoardsTest" />
+        <item itemvalue="Gradle.Tests in 'tasks.test'" />
+        <item itemvalue="Gradle.TrelloValidatorTest.testvalidateTrelloBorads" />
+        <item itemvalue="Gradle.TrelloFacadeTest.shouldCreateCard" />
+        <item itemvalue="Gradle.TrelloMapperTest.testMapToListDto" />
         <item itemvalue="Gradle.TrelloMapperTest" />
-        <item itemvalue="Gradle.TrelloClientTest" />
-        <item itemvalue="Gradle.SimpleEmailServiceTest.shouldSendEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +263,7 @@
       <workItem from="1601377139627" duration="26000" />
       <workItem from="1601462457302" duration="144000" />
       <workItem from="1602063097858" duration="8450000" />
-      <workItem from="1602759029131" duration="3680000" />
+      <workItem from="1602759029131" duration="16738000" />
     </task>
     <servers />
   </component>
@@ -283,22 +287,22 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="458" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.796@0.23.1440.796" timestamp="1594310937095" />
-    <state width="1358" height="273" key="GridCell.Tab.0.bottom" timestamp="1602762647879">
+    <state width="1358" height="208" key="GridCell.Tab.0.bottom" timestamp="1602783687245">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="273" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1602762647879" />
-    <state width="1358" height="273" key="GridCell.Tab.0.center" timestamp="1602762647878">
+    <state width="1358" height="208" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1602783687245" />
+    <state width="1358" height="208" key="GridCell.Tab.0.center" timestamp="1602783687244">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="273" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1602762647878" />
-    <state width="1358" height="273" key="GridCell.Tab.0.left" timestamp="1602762647878">
+    <state width="1358" height="208" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1602783687244" />
+    <state width="1358" height="208" key="GridCell.Tab.0.left" timestamp="1602783687243">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="273" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1602762647878" />
-    <state width="1358" height="273" key="GridCell.Tab.0.right" timestamp="1602762647879">
+    <state width="1358" height="208" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1602783687243" />
+    <state width="1358" height="208" key="GridCell.Tab.0.right" timestamp="1602783687245">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="273" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1602762647879" />
+    <state width="1358" height="208" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1602783687245" />
     <state width="1358" height="273" key="GridCell.Tab.1.bottom" timestamp="1602759723943">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
@@ -323,10 +327,10 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="443" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.796@0.23.1440.796" timestamp="1596135356566" />
-    <state x="496" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602760834368">
+    <state x="496" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602780390855">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state x="496" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.796@0.23.1440.796" timestamp="1602760834368" />
+    <state x="496" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.796@0.23.1440.796" timestamp="1602780390855" />
     <state x="143" y="24" key="new project wizard" timestamp="1597154578513">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -337,5 +341,8 @@
     </state>
     <state x="385" y="143" width="670" height="676" key="search.everywhere.popup/0.23.1440.796@0.23.1440.796" timestamp="1602761165484" />
     <state x="385" y="143" width="670" height="678" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1595438987943" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tasks$Tests_in__tasks_test_.ic" NAME="Tests in 'tasks.test' Coverage Results" MODIFIED="1602783687208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
