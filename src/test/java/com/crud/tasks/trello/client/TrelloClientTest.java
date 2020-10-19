@@ -35,14 +35,14 @@ public class TrelloClientTest {
     private TrelloConfig trelloConfig;
 
     @Before
-    public void init(){
+    public void init() {
         when(trelloConfig.getTrelloApiEndpoint()).thenReturn("http://test.com");
         when(trelloConfig.getTrelloAppKey()).thenReturn("test");
         when(trelloConfig.getTrelloToken()).thenReturn("test");
     }
 
     @Test
-    public void shouldCreateCard() throws URISyntaxException{
+    public void shouldCreateCard() throws URISyntaxException {
         //Given
         TrelloCardDto trelloCardDto = new TrelloCardDto("Test t" +
                 "ask",
@@ -84,7 +84,7 @@ public class TrelloClientTest {
     }
 
     @Test
-    public void shouldReturnEmptyList() throws URISyntaxException{
+    public void shouldReturnEmptyList() throws URISyntaxException {
         //Given
         TrelloBoardDto[] trelloBoards = new TrelloBoardDto[0];
 

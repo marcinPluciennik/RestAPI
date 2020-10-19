@@ -8,7 +8,6 @@ import com.crud.tasks.trello.facade.TrelloFacade;
 import com.google.gson.Gson;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.ArgumentMatcher;
 import org.mockito.ArgumentMatchers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -40,7 +39,7 @@ public class TrelloControllerTest {
     private TrelloFacade trelloFacade;
 
     @Test
-    public void shouldFetchEmptyTrelloBoards() throws Exception{
+    public void shouldFetchEmptyTrelloBoards() throws Exception {
         //Given
         List<TrelloBoardDto> trelloBoards = new ArrayList<>();
         when(trelloFacade.fetchTrelloBorads()).thenReturn(trelloBoards);
@@ -52,7 +51,7 @@ public class TrelloControllerTest {
     }
 
     @Test
-    public void shouldFetchTrelloBoards() throws Exception{
+    public void shouldFetchTrelloBoards() throws Exception {
         //Given
         List<TrelloListDto> trelloLists = new ArrayList<>();
         trelloLists.add(new TrelloListDto("1", "Test List", false));
@@ -77,7 +76,7 @@ public class TrelloControllerTest {
     }
 
     @Test
-    public void shouldCreateTrelloCard() throws Exception{
+    public void shouldCreateTrelloCard() throws Exception {
         //Given
         TrelloCardDto trelloCardDto = new TrelloCardDto(
                 "Test",

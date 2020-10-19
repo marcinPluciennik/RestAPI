@@ -24,7 +24,7 @@ public class TrelloServiceTest {
     private TrelloClient trelloClient;
 
     @Test
-    public void shouldFetchTrelloBoards(){
+    public void shouldFetchTrelloBoards() {
         //Given
         when(trelloClient.getTrelloBoards()).thenReturn(new ArrayList<>());
 

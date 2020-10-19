@@ -21,11 +21,11 @@ public class TrelloMapperTest {
     private TrelloMapper trelloMapper;
 
     @Test
-    public void testMapToBoards(){
+    public void testMapToBoards() {
         //Given
         List<TrelloBoardDto> trelloBoardDto = new ArrayList<>();
         List<TrelloListDto> lists = new ArrayList<>();
-        trelloBoardDto.add(new TrelloBoardDto("AAA", "BBB", lists ));
+        trelloBoardDto.add(new TrelloBoardDto("AAA", "BBB", lists));
 
         //When
         List<TrelloBoard> trelloBoards = trelloMapper.mapToBoards(trelloBoardDto);
@@ -35,7 +35,7 @@ public class TrelloMapperTest {
     }
 
     @Test
-    public void testMapToBoardsDto(){
+    public void testMapToBoardsDto() {
         //Given
         List<TrelloBoard> trelloBoards = new ArrayList<>();
         List<TrelloList> lists = new ArrayList<>();
@@ -49,7 +49,7 @@ public class TrelloMapperTest {
     }
 
     @Test
-    public void testMapToList(){
+    public void testMapToList() {
         //Given
         List<TrelloListDto> trelloListDto = new ArrayList<>();
         trelloListDto.add(new TrelloListDto("EEE", "FFF", true));
@@ -62,7 +62,7 @@ public class TrelloMapperTest {
     }
 
     @Test
-    public void testMapToListDto(){
+    public void testMapToListDto() {
         //Given
         List<TrelloList> trelloLists = new ArrayList<>();
         trelloLists.add(new TrelloList("GGG", "HHH", true));
@@ -75,7 +75,7 @@ public class TrelloMapperTest {
     }
 
     @Test
-    public void testMapToCardDto(){
+    public void testMapToCardDto() {
         //Given
         TrelloCard trelloCard = new TrelloCard("MMM", "NNN", "OOO", "PPP");
 
@@ -90,7 +90,7 @@ public class TrelloMapperTest {
     }
 
     @Test
-    public void testMapToCard(){
+    public void testMapToCard() {
         //Given
         TrelloCardDto trelloCardDto = new TrelloCardDto("III", "JJJ", "KKK", "LLL");
 

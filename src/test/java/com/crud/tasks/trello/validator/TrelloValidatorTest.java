@@ -21,19 +21,19 @@ public class TrelloValidatorTest {
     private TrelloValidator trelloValidator;
 
     @Test
-    public void testValidateTrelloBoards(){
+    public void testValidateTrelloBoards() {
         //Given
         List<TrelloList> lists = new ArrayList<>();
         lists.add(new TrelloList("1", "my_list", false));
 
         List<TrelloBoard> trelloBoards = new ArrayList<>();
-        trelloBoards.add(new TrelloBoard("1","my_board", lists));
+        trelloBoards.add(new TrelloBoard("1", "my_board", lists));
 
         List<TrelloList> listsTest = new ArrayList<>();
         lists.add(new TrelloList("1", "my_list", false));
 
         List<TrelloBoard> trelloBoardsTest = new ArrayList<>();
-        trelloBoards.add(new TrelloBoard("1","test", lists));
+        trelloBoards.add(new TrelloBoard("1", "test", lists));
 
         //When
         List<TrelloBoard> result = trelloValidator.validateTrelloBoards(trelloBoards);

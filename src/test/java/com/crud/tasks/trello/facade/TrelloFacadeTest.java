@@ -35,7 +35,7 @@ public class TrelloFacadeTest {
 
 
     @Test
-    public void shouldFetchEmptyList(){
+    public void shouldFetchEmptyList() {
         //Given
         List<TrelloListDto> trelloLists = new ArrayList<>();
         trelloLists.add(new TrelloListDto("1", "test_list", false));
@@ -63,7 +63,7 @@ public class TrelloFacadeTest {
     }
 
     @Test
-    public void shouldFetchTrelloBoards(){
+    public void shouldFetchTrelloBoards() {
         //Given
         List<TrelloListDto> trelloLists = new ArrayList<>();
         trelloLists.add(new TrelloListDto("1", "my_list", false));
@@ -104,9 +104,9 @@ public class TrelloFacadeTest {
 
 
     @Test
-    public void shouldCreateCard(){
+    public void shouldCreateCard() {
         //Given
-        TrelloCardDto trelloCardDto = new TrelloCardDto("my_card", "card1", "1","10" );
+        TrelloCardDto trelloCardDto = new TrelloCardDto("my_card", "card1", "1", "10");
         TrelloCard trelloCard = new TrelloCard("my_card", "card1", "1", "10");
 
         when(trelloMapper.mapToCard(trelloCardDto)).thenReturn(trelloCard);
