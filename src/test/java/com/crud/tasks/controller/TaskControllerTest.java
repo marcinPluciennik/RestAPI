@@ -23,8 +23,7 @@ import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(TaskController.class)
@@ -38,6 +37,7 @@ public class TaskControllerTest {
 
     @MockBean
     private DbService service;
+
 
     @Test
     public void shouldGetTasks() throws Exception {
@@ -94,9 +94,8 @@ public class TaskControllerTest {
         TaskDto taskDtoUpdated = new TaskDto(1L, "New Title", "New Content");
         Task task = new Task(1L, "New Title", "New Content");
 
-        when(service.saveTask(task)).thenReturn(task);
-        when(taskMapper.mapToTask(taskDto)).thenReturn(task);
-        when(taskMapper.mapToTaskDto(task)).thenReturn(taskDtoUpdated);
+        when(service.saveTask(taskMapper.mapToTask(taskDto))).thenReturn(task);
+        when(taskMapper.mapToTaskDto(ArgumentMatchers.any(Task.class))).thenReturn(taskDtoUpdated);
 
         Gson gson = new Gson();
         String jsonContent = gson.toJson(taskDto);
