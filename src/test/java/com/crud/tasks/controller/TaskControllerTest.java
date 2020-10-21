@@ -21,6 +21,7 @@ import java.util.Optional;
 
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
@@ -94,8 +95,9 @@ public class TaskControllerTest {
         TaskDto taskDtoUpdated = new TaskDto(1L, "New Title", "New Content");
         Task task = new Task(1L, "New Title", "New Content");
 
-        when(service.saveTask(taskMapper.mapToTask(taskDto))).thenReturn(task);
-        when(taskMapper.mapToTaskDto(ArgumentMatchers.any(Task.class))).thenReturn(taskDtoUpdated);
+        when(taskMapper.mapToTask(any(TaskDto.class))).thenReturn(task);
+        when(service.saveTask(task)).thenReturn(task);
+        when(taskMapper.mapToTaskDto(any(Task.class))).thenReturn(taskDtoUpdated);
 
         Gson gson = new Gson();
         String jsonContent = gson.toJson(taskDto);
@@ -117,7 +119,7 @@ public class TaskControllerTest {
         TaskDto taskDto = new TaskDto(1L, "Test title", "Test content");
         Task task = new Task(1L, "Test title", "Test content");
 
-        when(taskMapper.mapToTask(ArgumentMatchers.any(TaskDto.class))).thenReturn(task);
+        when(taskMapper.mapToTask(any(TaskDto.class))).thenReturn(task);
         when(service.saveTask(task)).thenReturn(task);
 
         Gson gson = new Gson();
