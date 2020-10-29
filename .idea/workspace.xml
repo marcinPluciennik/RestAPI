@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.TasksApplication">
+  <component name="RunManager" selected="Gradle.TaskControllerTest.shouldUpdateTask">
     <configuration name="TaskControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -189,8 +191,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TaskControllerTest" />
         <item itemvalue="Gradle.TaskControllerTest.shouldUpdateTask" />
+        <item itemvalue="Gradle.TaskControllerTest" />
         <item itemvalue="Gradle.TaskControllerTest.shouldGetTasks" />
         <item itemvalue="Gradle.TaskControllerTest.shouldGetTask" />
         <item itemvalue="Gradle.TaskControllerTest.shouldCreateTask" />
@@ -236,7 +238,8 @@
       <workItem from="1601377139627" duration="26000" />
       <workItem from="1601462457302" duration="144000" />
       <workItem from="1602063097858" duration="8450000" />
-      <workItem from="1602759029131" duration="61829000" />
+      <workItem from="1602759029131" duration="61935000" />
+      <workItem from="1603978096188" duration="1518000" />
     </task>
     <servers />
   </component>
@@ -260,22 +263,22 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="458" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.796@0.23.1440.796" timestamp="1594310937095" />
-    <state width="1358" height="540" key="GridCell.Tab.0.bottom" timestamp="1603211121240">
+    <state width="1358" height="540" key="GridCell.Tab.0.bottom" timestamp="1603299400139">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1603211121240" />
-    <state width="1358" height="540" key="GridCell.Tab.0.center" timestamp="1603211121239">
+    <state width="1358" height="540" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1603299400139" />
+    <state width="1358" height="540" key="GridCell.Tab.0.center" timestamp="1603299400138">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1603211121239" />
-    <state width="1358" height="540" key="GridCell.Tab.0.left" timestamp="1603211121239">
+    <state width="1358" height="540" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1603299400138" />
+    <state width="1358" height="540" key="GridCell.Tab.0.left" timestamp="1603299400137">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1603211121239" />
-    <state width="1358" height="540" key="GridCell.Tab.0.right" timestamp="1603211121240">
+    <state width="1358" height="540" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1603299400137" />
+    <state width="1358" height="540" key="GridCell.Tab.0.right" timestamp="1603299400138">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1603211121240" />
+    <state width="1358" height="540" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1603299400138" />
     <state width="1358" height="540" key="GridCell.Tab.1.bottom" timestamp="1603211121242">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
