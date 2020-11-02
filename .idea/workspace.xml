@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/StaticWebPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.controller.TaskControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.controller.TaskControllerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.controller.TaskControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.controller.TaskControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,7 +106,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TaskControllerTest.shouldUpdateTask">
+  <component name="RunManager" selected="Spring Boot.TasksApplication">
     <configuration name="TaskControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -239,7 +259,8 @@
       <workItem from="1601462457302" duration="144000" />
       <workItem from="1602063097858" duration="8450000" />
       <workItem from="1602759029131" duration="61935000" />
-      <workItem from="1603978096188" duration="1518000" />
+      <workItem from="1603978096188" duration="3731000" />
+      <workItem from="1604307316055" duration="1680000" />
     </task>
     <servers />
   </component>
@@ -251,50 +272,42 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="120" y="123" width="1200" height="577" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.796@0.23.1440.796" timestamp="1596196258695" />
-    <state x="419" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594212336114">
-      <screen x="0" y="23" width="1440" height="796" />
-    </state>
-    <state x="419" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.796@0.23.1440.796" timestamp="1594212336114" />
     <state x="291" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602698965929">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="291" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.796@0.23.1440.796" timestamp="1602698965929" />
-    <state x="458" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594310937095">
+    <state width="1358" height="380" key="GridCell.Tab.0.bottom" timestamp="1604308892908">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state x="458" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.796@0.23.1440.796" timestamp="1594310937095" />
-    <state width="1358" height="540" key="GridCell.Tab.0.bottom" timestamp="1603299400139">
+    <state width="1358" height="380" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1604308892908" />
+    <state width="1358" height="380" key="GridCell.Tab.0.center" timestamp="1604308892907">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1603299400139" />
-    <state width="1358" height="540" key="GridCell.Tab.0.center" timestamp="1603299400138">
+    <state width="1358" height="380" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1604308892907" />
+    <state width="1358" height="380" key="GridCell.Tab.0.left" timestamp="1604308892906">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1603299400138" />
-    <state width="1358" height="540" key="GridCell.Tab.0.left" timestamp="1603299400137">
+    <state width="1358" height="380" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1604308892906" />
+    <state width="1358" height="380" key="GridCell.Tab.0.right" timestamp="1604308892907">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1603299400137" />
-    <state width="1358" height="540" key="GridCell.Tab.0.right" timestamp="1603299400138">
+    <state width="1358" height="380" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1604308892907" />
+    <state width="1358" height="380" key="GridCell.Tab.1.bottom" timestamp="1604308892909">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1603299400138" />
-    <state width="1358" height="540" key="GridCell.Tab.1.bottom" timestamp="1603211121242">
+    <state width="1358" height="380" key="GridCell.Tab.1.bottom/0.23.1440.796@0.23.1440.796" timestamp="1604308892909" />
+    <state width="1358" height="380" key="GridCell.Tab.1.center" timestamp="1604308892908">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.1.bottom/0.23.1440.796@0.23.1440.796" timestamp="1603211121242" />
-    <state width="1358" height="540" key="GridCell.Tab.1.center" timestamp="1603211121241">
+    <state width="1358" height="380" key="GridCell.Tab.1.center/0.23.1440.796@0.23.1440.796" timestamp="1604308892908" />
+    <state width="1358" height="380" key="GridCell.Tab.1.left" timestamp="1604308892908">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.1.center/0.23.1440.796@0.23.1440.796" timestamp="1603211121241" />
-    <state width="1358" height="540" key="GridCell.Tab.1.left" timestamp="1603211121241">
+    <state width="1358" height="380" key="GridCell.Tab.1.left/0.23.1440.796@0.23.1440.796" timestamp="1604308892908" />
+    <state width="1358" height="380" key="GridCell.Tab.1.right" timestamp="1604308892909">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1358" height="540" key="GridCell.Tab.1.left/0.23.1440.796@0.23.1440.796" timestamp="1603211121241" />
-    <state width="1358" height="540" key="GridCell.Tab.1.right" timestamp="1603211121242">
-      <screen x="0" y="23" width="1440" height="796" />
-    </state>
-    <state width="1358" height="540" key="GridCell.Tab.1.right/0.23.1440.796@0.23.1440.796" timestamp="1603211121242" />
+    <state width="1358" height="380" key="GridCell.Tab.1.right/0.23.1440.796@0.23.1440.796" timestamp="1604308892909" />
     <state x="229" y="50" key="SettingsEditor" timestamp="1603207333485">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
@@ -316,7 +329,6 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="385" y="143" width="670" height="676" key="search.everywhere.popup/0.23.1440.796@0.23.1440.796" timestamp="1602860470172" />
-    <state x="385" y="143" width="670" height="678" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1595438987943" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tasks$Tests_in__tasks_test_.ic" NAME="Tests in 'tasks.test' Coverage Results" MODIFIED="1602785356829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
