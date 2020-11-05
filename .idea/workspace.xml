@@ -2,60 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88b8a0f-1307-422f-b55a-c7a5bbc6d2e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/MailCreatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mail/created-trello-card-mail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/config/AdminConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/config/AdminConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/scheduler/EmailScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/scheduler/EmailScheduler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/SimpleEmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/SimpleEmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/TrelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/TrelloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/client/TrelloClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/client/TrelloClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.controller.TaskControllerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.controller.TrelloControllerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.mapper.TrelloMapperTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.service.SimpleEmailServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.service.SimpleEmailServiceTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.service.TrelloServiceTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.trello.client.TrelloClientTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.trello.facade.TrelloFacadeTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.trello.validator.TrelloValidatorTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.mapper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.service.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.trello.client.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.trello.facade.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.trello.validator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/MailCreatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/MailCreatorService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.controller.TaskControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.controller.TrelloControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.mapper.TrelloMapperTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.service.SimpleEmailServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.service.SimpleEmailServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.service.TrelloServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.trello.client.TrelloClientTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.trello.facade.TrelloFacadeTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.trello.validator.TrelloValidatorTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/config/AdminConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/config/AdminConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/client/TrelloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/client/TrelloClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/config/TrelloConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/config/TrelloConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/mail/created-trello-card-mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/mail/created-trello-card-mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/MailCreatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/MailCreatorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TrelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TrelloControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/created-trello-card-mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mail/created-trello-card-mail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +252,7 @@
       <workItem from="1602759029131" duration="61935000" />
       <workItem from="1603978096188" duration="3731000" />
       <workItem from="1604307316055" duration="11448000" />
-      <workItem from="1604479350383" duration="17772000" />
+      <workItem from="1604479350383" duration="27370000" />
     </task>
     <servers />
   </component>
@@ -308,53 +268,53 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="291" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.796@0.23.1440.796" timestamp="1602698965929" />
-    <state width="1358" height="215" key="GridCell.Tab.0.bottom" timestamp="1604509411264">
+    <state width="1358" height="215" key="GridCell.Tab.0.bottom" timestamp="1604563686358">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state width="1358" height="103" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1604333923387" />
-    <state width="1358" height="215" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1604509411264" />
+    <state width="1358" height="215" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1604563686358" />
     <state width="1358" height="215" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1604501731510" />
-    <state width="1358" height="215" key="GridCell.Tab.0.center" timestamp="1604509411263">
+    <state width="1358" height="215" key="GridCell.Tab.0.center" timestamp="1604563686357">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state width="1358" height="103" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1604333923387" />
-    <state width="1358" height="215" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1604509411263" />
+    <state width="1358" height="215" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1604563686357" />
     <state width="1358" height="215" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1604501731509" />
-    <state width="1358" height="215" key="GridCell.Tab.0.left" timestamp="1604509411263">
+    <state width="1358" height="215" key="GridCell.Tab.0.left" timestamp="1604563686355">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state width="1358" height="103" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1604333923386" />
-    <state width="1358" height="215" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1604509411263" />
+    <state width="1358" height="215" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1604563686355" />
     <state width="1358" height="215" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1604501731508" />
-    <state width="1358" height="215" key="GridCell.Tab.0.right" timestamp="1604509411263">
+    <state width="1358" height="215" key="GridCell.Tab.0.right" timestamp="1604563686357">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state width="1358" height="103" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1604333923387" />
-    <state width="1358" height="215" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1604509411263" />
+    <state width="1358" height="215" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1604563686357" />
     <state width="1358" height="215" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1604501731509" />
-    <state width="1358" height="215" key="GridCell.Tab.1.bottom" timestamp="1604509411266">
+    <state width="1358" height="215" key="GridCell.Tab.1.bottom" timestamp="1604563686361">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state width="1358" height="103" key="GridCell.Tab.1.bottom/0.23.1440.796@0.23.1440.796" timestamp="1604333923388" />
-    <state width="1358" height="215" key="GridCell.Tab.1.bottom/0.23.1440.800@0.23.1440.800" timestamp="1604509411266" />
+    <state width="1358" height="215" key="GridCell.Tab.1.bottom/0.23.1440.800@0.23.1440.800" timestamp="1604563686361" />
     <state width="1358" height="215" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1604501731511" />
-    <state width="1358" height="215" key="GridCell.Tab.1.center" timestamp="1604509411265">
+    <state width="1358" height="215" key="GridCell.Tab.1.center" timestamp="1604563686359">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state width="1358" height="103" key="GridCell.Tab.1.center/0.23.1440.796@0.23.1440.796" timestamp="1604333923387" />
-    <state width="1358" height="215" key="GridCell.Tab.1.center/0.23.1440.800@0.23.1440.800" timestamp="1604509411265" />
+    <state width="1358" height="215" key="GridCell.Tab.1.center/0.23.1440.800@0.23.1440.800" timestamp="1604563686359" />
     <state width="1358" height="215" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1604501731511" />
-    <state width="1358" height="215" key="GridCell.Tab.1.left" timestamp="1604509411264">
+    <state width="1358" height="215" key="GridCell.Tab.1.left" timestamp="1604563686358">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state width="1358" height="103" key="GridCell.Tab.1.left/0.23.1440.796@0.23.1440.796" timestamp="1604333923387" />
-    <state width="1358" height="215" key="GridCell.Tab.1.left/0.23.1440.800@0.23.1440.800" timestamp="1604509411264" />
+    <state width="1358" height="215" key="GridCell.Tab.1.left/0.23.1440.800@0.23.1440.800" timestamp="1604563686358" />
     <state width="1358" height="215" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1604501731511" />
-    <state width="1358" height="215" key="GridCell.Tab.1.right" timestamp="1604509411266">
+    <state width="1358" height="215" key="GridCell.Tab.1.right" timestamp="1604563686360">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state width="1358" height="103" key="GridCell.Tab.1.right/0.23.1440.796@0.23.1440.796" timestamp="1604333923388" />
-    <state width="1358" height="215" key="GridCell.Tab.1.right/0.23.1440.800@0.23.1440.800" timestamp="1604509411266" />
+    <state width="1358" height="215" key="GridCell.Tab.1.right/0.23.1440.800@0.23.1440.800" timestamp="1604563686360" />
     <state width="1358" height="215" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1604501731511" />
     <state x="229" y="50" key="SettingsEditor" timestamp="1603207333485">
       <screen x="0" y="23" width="1440" height="796" />
